@@ -1,0 +1,112 @@
+@font-face {
+    font-family: Kumbh;
+    src: url(KumbhSans-Light.ttf);
+}
+
+body {
+    position: static;
+    background: hsl(185, 75%, 39%);
+    overflow: hidden;
+}
+
+.upper-circle {
+    z-index: 5;
+    position: absolute;
+    top: -65%;
+    left: -13%;
+    
+}
+.bottom-circle {
+    z-index: 5;
+    position: absolute;
+    bottom: -75%;
+    right: -13%;
+    
+}
+.Card {
+    width: 350px;
+    height: 360px;
+    background-color: white;
+    position: absolute;
+    z-index: 9999;
+    top: 25%;
+    left: 40%;
+    border-radius: 25px;
+    box-shadow: 1px black;
+}
+
+.header {
+    overflow: hidden;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    height: 45%;
+}
+
+.body {
+    position: relative;
+    text-align: center;
+    top: -3.5rem;
+}
+
+.profile-image {
+    position: relative;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-bottom: -5%;
+}
+
+.profile-name {
+    font-family: Kumbh, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: hsl(229, 23%, 23%);
+}
+
+span {
+    padding-left: 3%;
+    font-weight: 200;
+    font-size: 18px;
+    color: hsl(227, 10%, 46%);
+}
+p {
+    font-family: Kumbh, sans-serif;
+    font-weight: 200;
+    margin-top: -2%;
+    color: hsl(227, 10%, 46%);
+}
+
+.footer {
+    position: relative;
+    border-top-style: solid;
+    border-color: hsla(227, 10%, 46%, 0.1);
+    top: -3.5rem;
+}
+.items{
+    text-align: center;
+    display: inline-block;
+    width: 31%;
+    height: 50px;
+}
+
+.items p {
+    margin-top: 28%;
+    margin-left: 10%;
+    font-family: Kumbh, sans-serif;
+    font-weight:900;
+    font-size: 18px;
+    color: hsla(229, 23%, 23%, 1);
+}
+
+.items span {
+    font-weight: 400;
+    font-size: 13px;
+    color: hsl(227, 10%, 46%);
+}
+
+footer .attribution{
+    position: fixed;
+    bottom: 0;
+    left: 40%;
+    text-align: center;
+    font-size: 15px;
+}
