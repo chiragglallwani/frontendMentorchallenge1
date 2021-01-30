@@ -12,15 +12,15 @@ body {
 .upper-circle {
     z-index: 5;
     position: absolute;
-    top: -65%;
-    left: -13%;
+    top: -650px;
+    left: -90px;
     
 }
 .bottom-circle {
     z-index: 5;
     position: absolute;
-    bottom: -75%;
-    right: -13%;
+    bottom: -570px;
+    right: -190px;
     
 }
 .Card {
@@ -110,3 +110,32 @@ footer .attribution{
     text-align: center;
     font-size: 15px;
 }
+
+@media screen and (max-width: 375px) {
+    .upper-circle {
+    z-index: 5;
+    position: absolute;
+        top: -620px;
+    left: -700px;
+    
+}
+.bottom-circle {
+    z-index: 5;
+    position: absolute;
+    bottom: -620px;
+    right: -650px;
+    
+}
+  .Card {
+    width: 310px;
+    height: 340px;
+    background-color: white;
+    position: absolute;
+    z-index: 9999;
+    top: 25%;
+    left: 7.5%;
+    border-radius: 25px;
+    box-shadow: 1px black;
+}
+}
+
